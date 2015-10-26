@@ -1,0 +1,31 @@
+{
+  "name": "buffer-utf8-length",
+  "version": "1.0.0",
+  "description": "Fastest implementation of counting UTF-8 byte sequences in a Buffer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rreverser/buffer-utf8-length.git"
+  },
+  "keywords": [
+    "utf-8",
+    "utf8",
+    "unicode",
+    "codepoints",
+    "length",
+    "buffer",
+    "string"
+  ],
+  "author": "Ingvar Stepanyan <me@rreverser.com> (https://rreverser.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rreverser/buffer-utf8-length/issues"
+  },
+  "homepage": "https://github.com/rreverser/buffer-utf8-length#readme",
+  "devDependencies": {
+    "string.fromcodepoint": "^0.2.1"
+  }
+}
