@@ -6,7 +6,7 @@ Fastest implementation of counting UTF-8 byte sequences in a Buffer.
 ```
 string-char-by-char x 15,842 ops/sec ±1.22% (92 runs sampled)
 buffer-byte-by-byte x 33,463 ops/sec ±1.36% (91 runs sampled)
-buffer-utf8-decoder x 70,088 ops/sec ±2.31% (88 runs sampled)
+buffer-utf8-length x 70,088 ops/sec ±2.31% (88 runs sampled)
 ```
 
 ## Installation
